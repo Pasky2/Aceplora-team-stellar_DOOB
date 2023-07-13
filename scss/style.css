@@ -155,7 +155,7 @@ body {
 }
 .contact-form .form p button {
   width: 12.5rem;
-  background-color: #912F59;
+  background: linear-gradient(to right, rgb(112, 72, 209), rgb(196, 66, 174), rgb(247, 79, 85));
   color: #fff;
   font-size: 1rem;
   padding: 1.25rem;
@@ -163,7 +163,8 @@ body {
   border-radius: 10px;
 }
 .contact-form .form p button:hover {
-  opacity: 0.8;
+  background: linear-gradient(to right, rgb(112, 72, 209), 10%, rgb(213, 52, 178), 70%, rgb(247, 79, 85));
+  box-shadow: 1px 1px 1rem rgb(198, 73, 11);
 }
 .contact-form div {
   margin-top: 1.5rem;
@@ -220,10 +221,15 @@ body {
     width: 36rem !important;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .contact-form div {
+    text-align: center;
+  }
+}
 footer {
   width: 100%;
   padding: 2rem;
-  background-color: #060606;
+  background-color: transparent;
 }
 footer .logo {
   width: 95%;
@@ -238,7 +244,7 @@ footer .logo .logo-img p {
   font-size: 20px;
 }
 footer .logo .logo-btn button {
-  background-color: #912F59;
+  background: linear-gradient(to right, rgb(112, 72, 209), rgb(196, 66, 174), rgb(247, 79, 85));
   color: #fff;
   width: 13rem;
   font-size: 1rem;
@@ -247,6 +253,10 @@ footer .logo .logo-btn button {
   border-radius: 10px;
   opacity: 0.9;
   margin-left: 12rem;
+}
+footer .logo .logo-btn button:hover {
+  background: linear-gradient(to right, rgb(112, 72, 209), 10%, rgb(213, 52, 178), 70%, rgb(247, 79, 85));
+  box-shadow: 1px 1px 1rem rgb(198, 73, 11);
 }
 footer .footer-content {
   padding: 70px 80px;
@@ -307,6 +317,12 @@ footer .footer-content .write .socials a {
   margin-right: 5px;
   padding: 10px;
   border-radius: 50%;
+}
+footer .footer-content .write .socials a:hover {
+  background-color: #059DFF;
+}
+footer .footer-content .write .socials a:hover::after {
+  transform: scaleX(0);
 }
 footer .footer-content .write .socials .one {
   border-radius: 75%;

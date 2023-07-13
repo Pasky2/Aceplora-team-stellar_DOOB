@@ -1,14 +1,12 @@
 footer {
     width: 100% ;
     padding: 2rem;
-     background-color: $dark;
+     background-color: transparent;
     .logo {
         width: 95%;
-//         margin-bottom: 100px;
          border-bottom: 0.2px solid rgba($color: #fff, $alpha: .05);
         
          .logo-img {
-            //padding-left: 100px;
              img {
                  width: 150px;
                  color: $white;
@@ -23,7 +21,7 @@ footer {
 
        .logo-btn {
              button {
-                 background-color: $color2;
+                 background: linear-gradient(to right, rgb(112, 72, 209), rgb(196, 66, 174), rgb(247, 79, 85));
                  color: $white;
                  width: 13rem;
                  font-size: 1rem;
@@ -32,6 +30,11 @@ footer {
                  border-radius: 10px;
                  opacity: .9;
                  margin-left: 12rem;
+             }
+
+             button:hover {
+                background: linear-gradient(to right, rgb(112, 72, 209), 10%, rgb(213, 52, 178), 70%,  rgb(247, 79, 85));
+                box-shadow: 1px 1px 1rem rgb(198, 73, 11);
              }
       }
      }
@@ -115,6 +118,15 @@ footer {
                 border-radius: 50%;
              }
 
+
+             a:hover {
+                background-color: $blue;
+             }
+
+             a:hover::after {
+                transform: scaleX(0);
+             }
+
              .one {
                 border-radius: 75%;
              }
@@ -132,7 +144,6 @@ footer {
         padding: 0 100px;
         padding-top: 10px;
     .footer-last {
-        //word-wrap: normal;
         a {
             position: relative;
             text-decoration: none;
