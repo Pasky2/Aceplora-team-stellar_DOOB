@@ -1,0 +1,71 @@
+.contact-info {
+           padding-left: 4rem;
+          .contact {
+             background-color: $dark;
+              min-height: 16rem;
+              font-size: 1rem;
+              text-align: left;
+               border-radius: 15px;
+               transition: transform 1s !important;
+    
+            h3 {
+                 font-size: 1.2rem;
+                 font-weight: 700;
+                 overflow-wrap: normal;
+             }
+    
+            i {
+                 color: $blue;
+                 padding-bottom: 1rem;
+                 font-size: 2rem;
+             }
+    
+            div {
+    
+                a {
+                    color: $white;
+                    opacity: .7;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    transition: color 0.3s;
+                }
+    
+                a:hover {
+                    color: $blue;
+                }
+                
+            }
+        }
+    
+          .contact:hover {
+              transform: translateY(-0.9375rem) !important;
+         }
+    
+              .contact:nth-child(3) {
+               min-height: 20rem !important;
+               //padding-bottom: 1rem;
+    
+            p {
+                 color: $white;
+                 opacity: .7;
+                 font-size: 1.2rem;
+        
+                span {
+                    padding-top: 2rem;
+                }
+            }
+        }
+    }
+    
+    
+    @media  screen and (min-width:250px) and (max-width:575px) {
+        .contact-info {
+            padding-right: 1rem;
+            justify-content: center;
+            .contact {
+                width: 95%;
+            }
+           
+        }
+    }
+    
