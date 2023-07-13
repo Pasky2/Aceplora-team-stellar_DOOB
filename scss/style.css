@@ -232,7 +232,6 @@ footer {
   background-color: transparent;
 }
 footer .logo {
-  width: 95%;
   border-bottom: 0.2px solid rgba(255, 255, 255, 0.05);
 }
 footer .logo .logo-img img {
@@ -252,7 +251,7 @@ footer .logo .logo-btn button {
   border: 0;
   border-radius: 10px;
   opacity: 0.9;
-  margin-left: 12rem;
+  margin-left: 22rem;
 }
 footer .logo .logo-btn button:hover {
   background: linear-gradient(to right, rgb(112, 72, 209), 10%, rgb(213, 52, 178), 70%, rgb(247, 79, 85));
