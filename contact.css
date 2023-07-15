@@ -3,6 +3,10 @@ body {
     place-content: center;
 }
 
+nav {
+    background: var(--card-background);
+}
+
 .section1 {
     margin: auto;
     text-align: center;

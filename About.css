@@ -4,7 +4,6 @@ body {
 }
 
 .main-container {
-  /* max-width: 1300px; */
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +11,7 @@ nav {
   background: var(--nav-background);
   position: fixed;
   top: 0;
+  padding: 0 10px;
 }
 
 .light-mode {
@@ -250,7 +250,7 @@ margin-bottom: 20px;
   width: 280px;
 }
 
-.row {
+.content-row {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -555,12 +555,11 @@ footer .footer-container p {
 
   nav {
     background: transparent;
-    justify-content: space-evenly;
   }
   nav .wrapper {
-    max-width: 1400px;
     justify-content: end;
   } 
+
   .section-one h1 {
     font-size: 55px;
     line-height: 50px;
@@ -651,7 +650,7 @@ footer .footer-container p {
     height: 0;
   }
 
-  .row {
+  .content-row {
     max-width: 1400px;
     margin: auto;
     display: grid;
